@@ -88,7 +88,7 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 80px;
-    background-color: #E5E7EB;
+    background-color: white;
     padding: 80px;
 }
 
@@ -121,13 +121,41 @@ a {
 }
 
 .third-section {
-    background-color: ;
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 80px;
+}
+
+.organizer {
+    width: 1300px;
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+}
+
+.third-section .miniflex {
+    width: 700px;
+    padding: 30px;
+    background-color: white;
 }
 
 .quote {
-
+    font-size: 36px;
+    color: #1f2936;
+    font-weight: 300;
 }
 
 .reference {
-    
+    font-size: 24px;
+}
+
+.o-left {
+    align-self: flex-start;
+    border-left: 10px solid #3882f6;
+}
+
+.o-right {
+    align-self: flex-end;
+    border-right: 10px solid #3882f6;
 }
