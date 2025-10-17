@@ -138,16 +138,20 @@ a {
     width: 700px;
     padding: 30px;
     background-color: white;
+    gap: 15px;
 }
 
 .quote {
-    font-size: 36px;
+    font-size: 30px;
     color: #1f2936;
     font-weight: 300;
+    text-align: justify;
 }
 
 .reference {
     font-size: 24px;
+    font-weight: 900;
+    text-align: right;
 }
 
 .o-left {
