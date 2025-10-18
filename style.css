@@ -146,6 +146,7 @@ a {
     color: #1f2936;
     font-weight: 300;
     text-align: justify;
+    font-style: italic;
 }
 
 .reference {
@@ -162,4 +163,55 @@ a {
 .o-right {
     align-self: flex-end;
     border-right: 10px solid #3882f6;
+}
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 150px;
+    color: white;
+}
+
+.blueback {
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    width: 1300px;
+    padding: 80px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.call-to-action {
+    font-size: 24px;
+}
+
+.sign-up-text {
+    font-size: 18px;
+}
+
+.blueback div {
+    
+}
+
+.blueback a {
+    border: 1px solid white;
+}
+
+.one {
+    justify-self: flex-end;
+}
+
+.footer {
+    background-color: #1f2937;
+    height: 100px;
+    display: flex;
+}
+
+.footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
